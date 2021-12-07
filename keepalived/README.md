@@ -1,5 +1,6 @@
  yum install -y keepalived
  
+<pre> 
 Configuração do servidor 1:
 server1# cat /etc/keepalived/keepalived.conf
 vrrp_instance VI_1 {
@@ -32,4 +33,3 @@ vrrp_instance VI_1 {
  192.168.122.200/24
  }
 }
-As d
